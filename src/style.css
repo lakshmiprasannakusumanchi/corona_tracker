@@ -1,0 +1,31 @@
+#a{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: space-around;
+    padding:50px;
+    padding-top:110px;
+    box-shadow:100px ;
+}
+#b{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 10px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding :10px;
+    background-color:  greenyellow;
+  }
+  
+  #zoom-on-hover {
+    transition: transform 0.2s ease;
+  }
+  
+  #zoom-on-hover:hover {
+    transform: scale(1.1);
+}
+  center{
+    background-image:url( "https://stories.uh.edu/covid-19/assets/ag2dSlL11z/covidbackground05-2560x1440.jpeg");
+  }
+  
